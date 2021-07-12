@@ -17,6 +17,8 @@ channels:
 specs:
   - nionswift
   - nionswift-tool
+  - nionswift-instrumentation
+  - nionswift-usim
   - ase
   - atomap
   - conda
