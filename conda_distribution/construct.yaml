@@ -12,8 +12,11 @@ condarc:
 
 channels:
   - conda-forge
+  - nion
 
 specs:
+  - nionswift
+  - nionswift-tool
   - ase
   - atomap
   - conda
