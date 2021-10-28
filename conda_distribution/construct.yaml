@@ -1,4 +1,4 @@
-{% set version = os.environ.get("VERSION", "2021.07.08") %}
+{% set version = os.environ.get("VERSION", "Lille-temscript") %}
 {% set blas_impl = os.environ.get("BLAS_IMPL", "openblas") %}
 
 name: HyperSpy-bundle
@@ -15,10 +15,6 @@ channels:
   - nion
 
 specs:
-  - nionswift
-  - nionswift-tool
-  - nionswift-instrumentation
-  - nionswift-usim
   - ase
   - atomap
   - conda
@@ -38,13 +34,14 @@ specs:
   - nglview
   - notebook
   - particlespy
-  - python 3.8*
+  - python 3.7*
   - pystackreg
   - pyxem >=0.13.3
   - qt
   - qtconsole
   - scanning_drift_corr
   - start_jupyter_cm
+  - numpy 1.21.3
 
 
 license_file: LICENSE
